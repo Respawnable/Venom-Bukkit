@@ -1,0 +1,460 @@
+2013-10-26 15:12:29 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:12:29 [INFO] Loading properties
+2013-10-26 15:12:29 [WARNING] server.properties does not exist
+2013-10-26 15:12:29 [INFO] Generating new properties file
+2013-10-26 15:12:30 [INFO] Default game type: SURVIVAL
+2013-10-26 15:12:30 [INFO] Generating keypair
+2013-10-26 15:12:30 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:12:30 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:12:30 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+2013-10-26 15:12:30 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+2013-10-26 15:12:30 [INFO] Preparing level "world"
+2013-10-26 15:12:30 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:12:31 [INFO] Preparing spawn area: 7%
+2013-10-26 15:12:32 [INFO] Preparing spawn area: 19%
+2013-10-26 15:12:33 [INFO] Preparing spawn area: 32%
+2013-10-26 15:12:35 [INFO] Preparing spawn area: 46%
+2013-10-26 15:12:36 [INFO] Preparing spawn area: 60%
+2013-10-26 15:12:37 [INFO] Preparing spawn area: 76%
+2013-10-26 15:12:38 [INFO] Preparing spawn area: 90%
+2013-10-26 15:12:38 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:12:39 [INFO] Preparing spawn area: 22%
+2013-10-26 15:12:41 [INFO] Preparing spawn area: 44%
+2013-10-26 15:12:42 [INFO] Preparing spawn area: 62%
+2013-10-26 15:12:43 [INFO] Preparing spawn area: 74%
+2013-10-26 15:12:44 [INFO] Preparing spawn area: 92%
+2013-10-26 15:12:44 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:12:45 [INFO] Preparing spawn area: 54%
+2013-10-26 15:12:46 [INFO] Done (15.625s)! For help, type "help" or "?"
+2013-10-26 15:12:48 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 15:12:48 [INFO] Stopping server
+2013-10-26 15:12:48 [INFO] Saving players
+2013-10-26 15:12:48 [WARNING] DSCT: socket closed
+2013-10-26 15:12:48 [INFO] Closing listening thread
+2013-10-26 15:12:48 [INFO] Saving worlds
+2013-10-26 15:12:48 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 15:12:51 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 15:12:52 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 15:12:59 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:12:59 [INFO] Loading properties
+2013-10-26 15:12:59 [INFO] Default game type: SURVIVAL
+2013-10-26 15:12:59 [INFO] Generating keypair
+2013-10-26 15:12:59 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:13:00 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:13:00 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:257)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 7, column 1:
+    	test:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:591)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:411)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:188)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:252)
+	... 8 more
+2013-10-26 15:13:00 [INFO] Preparing level "world"
+2013-10-26 15:13:00 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:13:01 [INFO] Preparing spawn area: 79%
+2013-10-26 15:13:01 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:13:02 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:13:02 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:13:02 [INFO] Done (2.267s)! For help, type "help" or "?"
+2013-10-26 15:14:54 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:247)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:613)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:528)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchServerCommand(CraftServer.java:515)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.as(DedicatedServer.java:263)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:228)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+2013-10-26 15:14:54 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:14:54 [INFO] CONSOLE: [0;32;1mReload complete.[m
+2013-10-26 15:15:06 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 15:15:06 [INFO] Stopping server
+2013-10-26 15:15:06 [INFO] Saving players
+2013-10-26 15:15:06 [WARNING] DSCT: socket closed
+2013-10-26 15:15:06 [INFO] Saving worlds
+2013-10-26 15:15:06 [INFO] Closing listening thread
+2013-10-26 15:15:06 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 15:15:06 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 15:15:06 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 15:15:45 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:15:45 [INFO] Loading properties
+2013-10-26 15:15:45 [INFO] Default game type: SURVIVAL
+2013-10-26 15:15:45 [INFO] Generating keypair
+2013-10-26 15:15:45 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:15:45 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:15:45 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:247)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 9 more
+2013-10-26 15:15:45 [INFO] Preparing level "world"
+2013-10-26 15:15:45 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:15:46 [INFO] Preparing spawn area: 96%
+2013-10-26 15:15:46 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:15:47 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:15:47 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:15:47 [INFO] Done (2.030s)! For help, type "help" or "?"
+2013-10-26 15:16:41 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:247)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:613)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:528)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchServerCommand(CraftServer.java:515)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.as(DedicatedServer.java:263)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:228)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+2013-10-26 15:16:41 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:16:41 [INFO] CONSOLE: [0;32;1mReload complete.[m
+2013-10-26 15:16:50 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 15:16:50 [INFO] Stopping server
+2013-10-26 15:16:50 [WARNING] DSCT: socket closed
+2013-10-26 15:16:50 [INFO] Closing listening thread
+2013-10-26 15:16:50 [INFO] Saving players
+2013-10-26 15:16:50 [INFO] Saving worlds
+2013-10-26 15:16:50 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 15:16:50 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 15:16:50 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 15:16:50 [INFO] Stopping server
+2013-10-26 15:16:50 [INFO] Saving players
+2013-10-26 15:17:44 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:17:44 [INFO] Loading properties
+2013-10-26 15:17:44 [INFO] Default game type: SURVIVAL
+2013-10-26 15:17:44 [INFO] Generating keypair
+2013-10-26 15:17:44 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:17:45 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:17:45 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:257)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 7, column 1:
+    	venom:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:591)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:411)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:188)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:252)
+	... 8 more
+2013-10-26 15:17:45 [INFO] Preparing level "world"
+2013-10-26 15:17:45 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:17:46 [INFO] Preparing spawn area: 96%
+2013-10-26 15:17:46 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:17:46 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:17:47 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:17:47 [INFO] Done (2.047s)! For help, type "help" or "?"
+2013-10-26 15:22:23 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:247)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.reload(CraftServer.java:613)
+	at org.bukkit.Bukkit.reload(Bukkit.java:277)
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:23)
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:192)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchCommand(CraftServer.java:528)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.dispatchServerCommand(CraftServer.java:515)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.as(DedicatedServer.java:263)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.t(DedicatedServer.java:228)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.s(MinecraftServer.java:488)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:421)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+2013-10-26 15:22:23 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:22:23 [INFO] CONSOLE: [0;32;1mReload complete.[m
+2013-10-26 15:22:29 [INFO] Unknown command. Type "help" for help.[m
+2013-10-26 15:22:30 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 15:22:30 [INFO] Stopping server
+2013-10-26 15:22:30 [WARNING] DSCT: socket closed
+2013-10-26 15:22:30 [INFO] Closing listening thread
+2013-10-26 15:22:30 [INFO] Saving players
+2013-10-26 15:22:30 [INFO] Saving worlds
+2013-10-26 15:22:30 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 15:22:30 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 15:22:30 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 15:22:30 [INFO] Stopping server
+2013-10-26 15:23:31 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:23:31 [INFO] Loading properties
+2013-10-26 15:23:31 [INFO] Default game type: SURVIVAL
+2013-10-26 15:23:31 [INFO] Generating keypair
+2013-10-26 15:23:31 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:23:31 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:23:31 [SEVERE] Could not load 'plugins\venom.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:257)
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:132)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.loadPlugins(CraftServer.java:241)
+	at org.bukkit.craftbukkit.v1_6_R3.CraftServer.<init>(CraftServer.java:219)
+	at net.minecraft.server.v1_6_R3.PlayerList.<init>(PlayerList.java:56)
+	at net.minecraft.server.v1_6_R3.DedicatedPlayerList.<init>(SourceFile:11)
+	at net.minecraft.server.v1_6_R3.DedicatedServer.init(DedicatedServer.java:107)
+	at net.minecraft.server.v1_6_R3.MinecraftServer.run(MinecraftServer.java:393)
+	at net.minecraft.server.v1_6_R3.ThreadServerApplication.run(SourceFile:583)
+Caused by: while scanning for the next token
+found character 	'\t' that cannot start any token
+ in "<reader>", line 8, column 1:
+    	venom:
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:358)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:179)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValue.produce(ParserImpl.java:591)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161)
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:146)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:133)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:237)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:160)
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:123)
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:106)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:121)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:480)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:411)
+	at org.bukkit.plugin.PluginDescriptionFile.<init>(PluginDescriptionFile.java:188)
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:252)
+	... 8 more
+2013-10-26 15:23:31 [INFO] Preparing level "world"
+2013-10-26 15:23:32 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:23:33 [INFO] Preparing spawn area: 79%
+2013-10-26 15:23:33 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:23:34 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:23:34 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:23:34 [INFO] Done (2.545s)! For help, type "help" or "?"
+2013-10-26 15:23:48 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 15:23:48 [INFO] Stopping server
+2013-10-26 15:23:48 [INFO] Saving players
+2013-10-26 15:23:48 [WARNING] DSCT: socket closed
+2013-10-26 15:23:48 [INFO] Saving worlds
+2013-10-26 15:23:48 [INFO] Closing listening thread
+2013-10-26 15:23:48 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 15:23:49 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 15:23:49 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 15:23:50 [INFO] Stopping server
+2013-10-26 15:26:52 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:26:52 [INFO] Loading properties
+2013-10-26 15:26:52 [INFO] Default game type: SURVIVAL
+2013-10-26 15:26:52 [INFO] Generating keypair
+2013-10-26 15:26:52 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:26:53 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:26:53 [INFO] [Venom] Loading Venom v1.0
+2013-10-26 15:26:53 [INFO] Preparing level "world"
+2013-10-26 15:26:53 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:26:54 [INFO] Preparing spawn area: 86%
+2013-10-26 15:26:54 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:26:55 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:26:55 [INFO] [Venom] Enabling Venom v1.0
+2013-10-26 15:26:55 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:26:55 [INFO] Done (2.375s)! For help, type "help" or "?"
+2013-10-26 15:27:06 [INFO] RespawnPvP[/127.0.0.1:60805] logged in with entity id 239 at ([world] -188.5, 76.0, 249.5)
+2013-10-26 15:27:09 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 15:27:09 [INFO] Unknown command. Type "help" for help.[m
+2013-10-26 15:27:24 [INFO] RespawnPvP lost connection: disconnect.quitting
+2013-10-26 15:27:24 [INFO] Connection reset
+2013-10-26 15:27:24 [INFO] §eRespawnPvP left the game.
+2013-10-26 15:50:15 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 15:50:15 [INFO] Stopping server
+2013-10-26 15:50:15 [INFO] [Venom] Disabling Venom v1.0
+2013-10-26 15:50:15 [WARNING] DSCT: socket closed
+2013-10-26 15:50:15 [INFO] Saving players
+2013-10-26 15:50:15 [INFO] Closing listening thread
+2013-10-26 15:50:15 [INFO] Saving worlds
+2013-10-26 15:50:15 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 15:50:15 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 15:50:15 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 15:50:15 [INFO] Stopping server
+2013-10-26 15:58:59 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 15:58:59 [INFO] Loading properties
+2013-10-26 15:58:59 [INFO] Default game type: SURVIVAL
+2013-10-26 15:58:59 [INFO] Generating keypair
+2013-10-26 15:59:00 [INFO] Starting Minecraft server on *:25565
+2013-10-26 15:59:00 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 15:59:00 [INFO] [Venom] Loading Venom v1.0
+2013-10-26 15:59:00 [INFO] Preparing level "world"
+2013-10-26 15:59:00 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 15:59:01 [INFO] Preparing spawn area: 84%
+2013-10-26 15:59:01 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 15:59:02 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 15:59:02 [INFO] [Venom] Enabling Venom v1.0
+2013-10-26 15:59:02 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 15:59:02 [INFO] Done (2.121s)! For help, type "help" or "?"
+2013-10-26 15:59:30 [INFO] RespawnPvP[/127.0.0.1:61810] logged in with entity id 327 at ([world] -182.30000001192093, 74.0, 293.69999998807907)
+2013-10-26 15:59:33 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 15:59:33 [INFO] Unknown command. Type "help" for help.[m
+2013-10-26 15:59:35 [INFO] RespawnPvP issued server command: /help
+2013-10-26 15:59:37 [INFO] RespawnPvP issued server command: /gm 1
+2013-10-26 15:59:40 [INFO] RespawnPvP issued server command: /gamemode 1
+2013-10-26 15:59:45 [INFO] RespawnPvP issued server command: /pl
+2013-10-26 16:00:41 [INFO] RespawnPvP was slain by Zombie
+2013-10-26 16:02:55 [INFO] [Venom] Disabling Venom v1.0
+2013-10-26 16:02:55 [INFO] [Venom] Loading Venom v1.0
+2013-10-26 16:02:55 [INFO] [Venom] Enabling Venom v1.0
+2013-10-26 16:02:55 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 16:02:55 [INFO] CONSOLE: [0;32;1mReload complete.[m
+2013-10-26 16:02:58 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 16:03:03 [INFO] RespawnPvP issued server command: /op RespawnPvP
+2013-10-26 16:03:03 [INFO] RespawnPvP: Opped RespawnPvP[m
+2013-10-26 16:03:15 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 16:03:20 [INFO] CONSOLE: De-opped RespawnPvP[m
+2013-10-26 16:03:23 [INFO] RespawnPvP issued server command: /op RespawnPvP
+2013-10-26 16:03:25 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 16:03:26 [INFO] RespawnPvP issued server command: /op RespawnPvP
+2013-10-26 16:03:26 [INFO] RespawnPvP: Opped RespawnPvP[m
+2013-10-26 16:03:38 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 16:03:38 [INFO] Stopping server
+2013-10-26 16:03:38 [INFO] [Venom] Disabling Venom v1.0
+2013-10-26 16:03:38 [INFO] Saving players
+2013-10-26 16:03:38 [WARNING] DSCT: socket closed
+2013-10-26 16:03:38 [INFO] Closing listening thread
+2013-10-26 16:03:38 [INFO] §eRespawnPvP left the game.
+2013-10-26 16:03:38 [INFO] Saving worlds
+2013-10-26 16:03:38 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 16:03:39 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 16:03:39 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 16:03:39 [INFO] Stopping server
+2013-10-26 16:13:45 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 16:13:45 [INFO] Loading properties
+2013-10-26 16:13:45 [INFO] Default game type: SURVIVAL
+2013-10-26 16:13:45 [INFO] Generating keypair
+2013-10-26 16:13:45 [INFO] Starting Minecraft server on *:25565
+2013-10-26 16:13:46 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 16:13:46 [INFO] [Venom] Loading Venom v1.0
+2013-10-26 16:13:46 [INFO] Preparing level "world"
+2013-10-26 16:13:46 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 16:13:47 [INFO] Preparing spawn area: 88%
+2013-10-26 16:13:47 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 16:13:48 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 16:13:48 [INFO] [Venom] Enabling Venom v1.0
+2013-10-26 16:13:48 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 16:13:48 [INFO] Done (2.126s)! For help, type "help" or "?"
+2013-10-26 16:14:14 [INFO] RespawnPvP[/127.0.0.1:62165] logged in with entity id 418 at ([world] -52.802955361729914, 89.0, 313.7438066876134)
+2013-10-26 16:14:20 [INFO] RespawnPvP issued server command: /help
+2013-10-26 16:14:23 [INFO] <RespawnPvP> #venom[m
+2013-10-26 16:14:26 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 16:14:29 [INFO] <RespawnPvP> #op[m
+2013-10-26 16:14:33 [INFO] <RespawnPvP> ##op[m
+2013-10-26 16:14:38 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 16:14:40 [INFO] RespawnPvP issued server command: /op
+2013-10-26 16:14:45 [INFO] RespawnPvP issued server command: /gamemode 1
+2013-10-26 16:14:45 [INFO] RespawnPvP: Set own game mode to CREATIVE mode[m
+2013-10-26 16:15:01 [INFO] RespawnPvP lost connection: disconnect.quitting
+2013-10-26 16:15:01 [INFO] Connection reset
+2013-10-26 16:15:01 [INFO] §eRespawnPvP left the game.
+2013-10-26 16:18:44 [INFO] CONSOLE: Stopping the server..[m
+2013-10-26 16:18:44 [INFO] Stopping server
+2013-10-26 16:18:44 [INFO] [Venom] Disabling Venom v1.0
+2013-10-26 16:18:44 [INFO] Saving players
+2013-10-26 16:18:44 [WARNING] DSCT: socket closed
+2013-10-26 16:18:44 [INFO] Saving worlds
+2013-10-26 16:18:44 [INFO] Closing listening thread
+2013-10-26 16:18:44 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 16:18:45 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 16:18:45 [INFO] Saving chunks for level 'world_the_end'/The End
+2013-10-26 16:58:00 [INFO] Starting minecraft server version 1.6.4
+2013-10-26 16:58:00 [INFO] Loading properties
+2013-10-26 16:58:00 [INFO] Default game type: SURVIVAL
+2013-10-26 16:58:00 [INFO] Generating keypair
+2013-10-26 16:58:01 [INFO] Starting Minecraft server on *:25565
+2013-10-26 16:58:01 [INFO] This server is running CraftBukkit version git-Bukkit-1.6.4-R1.0 (MC: 1.6.4) (Implementing API version 1.6.4-R1.0)
+2013-10-26 16:58:01 [INFO] [Venom] Loading Venom v1.0
+2013-10-26 16:58:01 [INFO] Preparing level "world"
+2013-10-26 16:58:01 [INFO] Preparing start region for level 0 (Seed: -2501546999998466144)
+2013-10-26 16:58:02 [INFO] Preparing spawn area: 94%
+2013-10-26 16:58:02 [INFO] Preparing start region for level 1 (Seed: -2501546999998466144)
+2013-10-26 16:58:03 [INFO] Preparing start region for level 2 (Seed: -2501546999998466144)
+2013-10-26 16:58:03 [INFO] [Venom] Enabling Venom v1.0
+2013-10-26 16:58:03 [INFO] Server permissions file permissions.yml is empty, ignoring it
+2013-10-26 16:58:03 [INFO] Done (2.028s)! For help, type "help" or "?"
+2013-10-26 16:58:25 [INFO] RespawnPvP[/127.0.0.1:62862] logged in with entity id 299 at ([world] -16.986348283592605, 82.26142702129508, 318.67399930155693)
+2013-10-26 16:58:28 [INFO] RespawnPvP issued server command: /help venom
+2013-10-26 16:58:33 [INFO] RespawnPvP issued server command: /delete
+2013-10-26 16:58:39 [INFO] RespawnPvP issued server command: /delete
+2013-10-26 16:58:44 [INFO] RespawnPvP issued server command: /delete
+2013-10-26 16:58:45 [INFO] RespawnPvP issued server command: /delete
+2013-10-26 16:58:45 [INFO] RespawnPvP issued server command: /delete
+2013-10-26 16:58:46 [INFO] RespawnPvP issued server command: /delete
+2013-10-26 16:58:49 [INFO] RespawnPvP issued server command: /venom
+2013-10-26 16:58:51 [INFO] RespawnPvP issued server command: /op
+2013-10-26 16:59:11 [INFO] RespawnPvP issued server command: /vanish
+2013-10-26 16:59:13 [INFO] RespawnPvP issued server command: /v
+2013-10-26 16:59:16 [INFO] RespawnPvP issued server command: /stop
+2013-10-26 16:59:16 [INFO] RespawnPvP: Stopping the server..[m
+2013-10-26 16:59:16 [INFO] Stopping server
+2013-10-26 16:59:16 [INFO] [Venom] Disabling Venom v1.0
+2013-10-26 16:59:16 [INFO] Saving players
+2013-10-26 16:59:16 [WARNING] DSCT: socket closed
+2013-10-26 16:59:16 [INFO] Closing listening thread
+2013-10-26 16:59:16 [INFO] §eRespawnPvP left the game.
+2013-10-26 16:59:16 [INFO] Saving worlds
+2013-10-26 16:59:16 [INFO] Saving chunks for level 'world'/Overworld
+2013-10-26 16:59:17 [INFO] Saving chunks for level 'world_nether'/Nether
+2013-10-26 16:59:18 [INFO] Saving chunks for level 'world_the_end'/The End

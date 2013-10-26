@@ -1,0 +1,9 @@
+name: Venom
+main: me.respawn.venom.Main
+author: Respawn
+description: Pick your poison.
+
+commands:
+	test:
+		usage: /<command>
+		description: Venomous
